@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>タイトル</title>
+<link rel="stylesheet" href="mystyle.css">
+ <script src="ex6-11.js"></script>
+ <script src="ex6-10.js"></script>
+ <script src="ex6-2.js"></script>
+</head>
+<body>
+<h1>後期プロジェクト</h1>
+<h1>zm20359 南部尊正</h31>
+<h1>好きなことはなんでしょうか</h1>
+<h1>タイマーで一文字ずつ答えがでます！</h1>
+<form name="timer"> 
+    <input type="button" value="スタート" onclick="startfnc()">
+    <br>
+    <input type="text" name="moji" size="30" value=""> </form>
+
+    <form> 
+    <input type="button" value="Timer" onclick="setTimeout('mes()',3000)"> 
+    </form>
+
+    
+
+<h1>ここで問題です。</h1>
+<h1>城西大学のロゴはどちらでしょうか</h1>
+<h1>どちらかが正解です</h1>
+<div id="image" >
+    <input type="button" value="画像の変更" onclick="imgchange1();">
+    <img src='./image/城西.bmp' id="logo" alt="JosaiLogo" class="imagechange">
+
+<div id="image" >
+    <input type="button" value="元に戻す" onclick="imgchange2();">
+
+    <h1>正解はクリックしてくだい</h1>
+<input type="button" value="クリック" onclick="saygoodbye();">
+
+</body>
+</html>
